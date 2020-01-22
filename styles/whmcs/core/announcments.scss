@@ -1,0 +1,51 @@
+/**
+ * -------------------------
+ * @section Announcements Page
+ * -------------------------
+ */
+
+div.announcement-single {
+  background: $color-white;
+  margin: 0 25px 25px 0;
+
+  &--date {
+    display: flex;
+    align-items: center;
+
+    font-size: 0.75rem;
+    color: $color-font;
+
+    margin-bottom: 1rem;
+
+    i {
+      font-size: 1rem;
+      padding-right: 0.75rem;
+    }
+  }
+
+  &--title {
+    margin-bottom: 0.75rem;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+  &--content {
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    margin-top: 10px;
+
+    p {
+      margin: 2px 0 10px;
+    }
+  }
+
+  .label {
+    margin-right: 10px;
+  }
+
+  .article-items {
+    font-size: 0.85em;
+    color: #888;
+  }
+}
+

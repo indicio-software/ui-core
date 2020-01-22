@@ -1,0 +1,25 @@
+/**
+ * -------------------------
+ * @section Responsive Pull Left & Right
+ * -------------------------
+ */
+
+@media (min-width: 992px) {
+  .pull-md-left {
+    float: left;
+  }
+  .pull-md-right {
+    float: right;
+  }
+}
+@media (min-width: 768px) {
+  .pull-sm-left {
+    float: left;
+  }
+  .pull-sm-right {
+    float: right;
+  }
+  .text-right-sm {
+    text-align: right;
+  }
+}

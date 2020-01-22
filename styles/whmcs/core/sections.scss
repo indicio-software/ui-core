@@ -1,0 +1,106 @@
+
+/**
+ * -------------------------
+ * @section Sections
+ * -------------------------
+ */
+
+section#header {
+  margin: 0;
+  padding: 10px 0;
+  background-color: #fff;
+  border-radius: 5px 5px 0 0;
+}
+
+section#header .logo img {
+  margin: 0;
+  padding: 0;
+  max-height: 50px;
+  vertical-align: middle;
+}
+section#header .logo-text {
+  font-family: 'Raleway';
+  font-weight: 400;
+  font-size: 2.6em;
+  white-space: nowrap;
+}
+
+section#header .search {
+  margin: 20px 0;
+}
+section#header .search .form-control {
+  border-color: #eee;
+  box-shadow: none;
+}
+section#header .search .btn {
+  background-color: #eee;
+  border-color: #eee;
+  color: #888;
+}
+
+section#main-body {
+  margin: 0;
+  padding: 20px 0;
+  min-height: 350px;
+  background-color: #fff;
+}
+
+section#main-content {
+  margin-bottom: 60px;
+}
+
+.main-content {
+  margin-bottom: 60px;
+  min-height: 300px;
+  padding-top: 100px;
+}
+
+section#footer {
+  margin: 0;
+  padding: 20px 10px;
+  background-color: #f8f8f8;
+  border-top: 1px solid #ddd;
+  color: #666;
+  font-size: 0.9em;
+}
+section#footer p {
+  margin: 0;
+}
+
+@media (min-width: 450px) {
+  section#footer {
+    line-height: 32px;
+  }
+}
+
+section#footer .back-to-top {
+  float: right;
+}
+section#footer .back-to-top i {
+  padding: 10px;
+  background-color: #ddd;
+  color: #888;
+  border-radius: 3px;
+  opacity: 0.7;
+}
+
+.adminreturndiv {
+  display: none !important;
+}
+
+.alert-bordered-left {
+  border: 0;
+  border-left: 3px solid;
+  border-radius: 0;
+  text-align: left;
+}
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.text-md {
+  font-size: 1.2em;
+}

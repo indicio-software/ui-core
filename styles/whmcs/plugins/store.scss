@@ -1,0 +1,107 @@
+/**
+ * -------------------------
+ * Store
+ * -------------------------
+ */
+
+.store-order-container {
+  margin: 20px 0;
+  padding: 30px;
+}
+.store-order-container h2 {
+  margin-top: 0;
+}
+.store-order-container .btn {
+  padding: 10px 30px;
+  font-size: 1.15em;
+  font-weight: 300;
+}
+
+.store-order-container .store-domain-tabs {
+  margin-top: 20px;
+}
+.store-order-container .store-domain-tabs li a {
+  margin-right: 10px;
+  padding: 7px 15px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+.store-order-container .store-domain-tabs li.active a {
+  background-color: #fff;
+  border-bottom: 1px solid transparent;
+}
+.store-order-container .store-domain-tab-content {
+  margin-bottom: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: 0;
+}
+.store-order-container .store-domain-tab-content a {
+  text-decoration: underline;
+}
+.store-order-container .store-domain-tab-content a:hover {
+  text-decoration: none;
+}
+
+.store-order-container .payment-term h4 {
+  margin-top: 25px;
+}
+@media (min-width: 768px) {
+  .store-order-container .payment-term {
+    float: right;
+  }
+  .store-order-container .payment-term h4 {
+    margin-top: 0;
+  }
+}
+
+.store-order-container .domain-validation {
+  display: block;
+  padding-top: 5px;
+  font-size: 1.2em;
+  font-weight: 300;
+  color: #888;
+}
+.store-order-container .domain-validation.ok {
+  color: #53a22d;
+}
+
+.store-promoted-product {
+  margin: 50px 0;
+  padding: 30px 30px 50px 30px;
+  background-color: #f6f6f6;
+}
+.store-promoted-product .icon {
+  height: 200px;
+  line-height: 200px;
+  text-align: center;
+  overflow: hidden;
+}
+.store-promoted-product .icon img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.store-promoted-product ul.features {
+  margin: 20px 0;
+  padding: 0;
+  list-style: none;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+.store-promoted-product ul.features li {
+  float: left;
+  width: 50%;
+  margin-bottom: 5px;
+}
+.store-promoted-product ul.features li .fa:not(.fa-spinner) {
+  font-size: 1.2em;
+  color: #91c590;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+.store-promoted-product .btn {
+  margin-top: 10px;
+  padding: 10px 30px;
+  font-size: 1.2em;
+  font-weight: 300;
+}

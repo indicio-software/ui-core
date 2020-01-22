@@ -1,0 +1,15 @@
+.footer {
+  background: $color-white;
+  border-top: solid 1px $color-dark-gray;
+
+  &__content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+      padding: 15px 0;
+      flex: 1 1 auto;
+    }
+  }
+}

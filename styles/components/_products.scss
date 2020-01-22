@@ -1,0 +1,20 @@
+.product-card {
+  @extend .card;
+  margin: 10px 0;
+
+  .product-content {
+    @extend .card-body;
+
+    &--group {
+      color: #cccccc;
+      letter-spacing: 0.05em;
+      padding: 5px 0;
+      @include font-size($font-size-base - 0.100rem);
+    }
+
+    &--title {
+      @include font-size($font-size-base + 0.150rem);
+      font-weight: 600;
+    }
+  }
+}

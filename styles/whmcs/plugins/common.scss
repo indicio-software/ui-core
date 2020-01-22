@@ -1,0 +1,66 @@
+/**
+ * Credit Card Input
+ */
+
+.intl-tel-input {
+  width: 100%;
+}
+
+/**
+ * JsonForm
+ */
+
+form[data-role="json-form"] .has-error input.form-control,
+form[data-role="json-form"] .has-error textarea.form-control,
+form[data-role="json-form"] .has-error select.form-control {
+  background-color: #fff0f0;
+  transition: 0.2s;
+}
+
+form[data-role="json-form"] .has-error .tooltip-inner {
+  background-color: #9d2a0b;
+}
+
+form[data-role="json-form"] .has-error .tooltip.top .tooltip-arrow {
+  border-top-color: #9d2a0b;
+}
+
+/**
+ * Credit Card Input
+ */
+
+.cc-number-field {
+  background-image: url(../../../images/payment/unknown.png);
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+.cc-number-field.visa {
+  background-image: url(../../../images/payment/visa.png);
+}
+.cc-number-field.mastercard {
+  background-image: url(../../../images/payment/mastercard.png);
+}
+.cc-number-field.amex {
+  background-image: url(../../../images/payment/amex.png);
+}
+.cc-number-field.dinersclub {
+  background-image: url(../../../images/payment/dinersclub.png);
+}
+.cc-number-field.discover {
+  background-image: url(../../../images/payment/discover.png);
+}
+.cc-number-field.unionpay {
+  background-image: url(../../../images/payment/unionpay.png);
+}
+.cc-number-field.jcb {
+  background-image: url(../../../images/payment/jcb.png);
+}
+.cc-number-field.maestro {
+  background-image: url(../../../images/payment/maestro.png);
+}
+.cc-number-field.forbrugsforeningen {
+  background-image: url(../../../images/payment/forbrugsforeningen.png);
+}
+.cc-number-field.dankort {
+  background-image: url(../../../images/payment/dankort.png);
+}

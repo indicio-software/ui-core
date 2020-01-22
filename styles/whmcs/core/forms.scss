@@ -1,0 +1,25 @@
+
+/**
+ * -------------------------
+ * @section Form Classes
+ * -------------------------
+ */
+
+.input-inline {
+  display: inline-block;
+}
+
+.input-inline-100 {
+  width: 100px;
+}
+
+.select-inline {
+  display: inline-block;
+  width: auto;
+}
+
+.form-group .field-error-msg {
+  display: none;
+  font-size: 0.85em;
+  color: #cc0000;
+}

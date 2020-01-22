@@ -1,0 +1,34 @@
+/**
+ * -------------------------
+ * @section Main Navbar
+ * -------------------------
+ */
+
+.navbar-main > li.dropdown:hover > ul.dropdown-menu {
+  display: block;
+}
+.navbar-main .navbar-toggle {
+  border-color: transparent;
+}
+.navbar-main .navbar-toggle .icon-bar {
+  background-color: #eee;
+}
+.navbar-main .navbar-toggle:focus,
+.navbar-main .navbar-toggle:hover {
+  background-color: transparent;
+}
+.navbar-main .navbar-toggle:focus .icon-bar,
+.navbar-main .navbar-toggle:hover .icon-bar {
+  background-color: #bbb;
+}
+
+@media (max-width: 991px) {
+  .navbar-main .navbar-nav>li>a {
+    padding: 3px 20px;
+  }
+
+  .navbar-main .open .dropdown-menu .dropdown-header,
+  .navbar-main .open .dropdown-menu>li>a {
+    padding: 3px 25px;
+  }
+}

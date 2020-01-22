@@ -1,0 +1,43 @@
+/**
+ * -------------------------
+ * @section Login Page
+ * -------------------------
+ */
+
+.logincontainer {
+  margin: 40px auto 100px auto;
+  padding: 0 10px;
+  max-width: 500px;
+}
+
+.logincontainer.with-social {
+  max-width: 650px;
+}
+
+.logincontainer .social-signin-btns {
+  padding: 23px 0;
+}
+
+@media (max-width: 500px) {
+  .logincontainer .social-signin-btns .btn {
+    display: block;
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .logincontainer {
+    margin: 0 auto 30px auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .logincontainer.with-social .login-form {
+    padding-right: 29px;
+    border-right: 1px solid #ddd;
+  }
+  .logincontainer .social-signin-btns .btn {
+    display: block;
+    width: 100%;
+  }
+}

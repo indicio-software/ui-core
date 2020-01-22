@@ -1,0 +1,211 @@
+/**
+ * -------------------------
+ * MarketConnect Service SSO
+ * -------------------------
+ */
+
+.panel-mc-sso {
+  padding: 0 10px 10px 10px;
+}
+.panel-mc-sso img {
+  max-width: 100%;
+  max-height: 120px;
+}
+.panel-mc-sso .row {
+  margin-left: -5px;
+  margin-right: -5px;
+}
+.panel-mc-sso .col-sm-6 {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+.panel-mc-sso .form-control,
+.panel-mc-sso .btn,
+.panel-mc-sso small {
+  margin-top: 5px;
+}
+.panel-mc-sso small {
+  display: block;
+}
+
+/**
+ * -------------------------
+ * Promotional Content Formatting
+ * -------------------------
+ */
+
+.promo-banner {
+  margin: 0;
+  padding: 15px 10px 20px 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  font-size: 1em;
+  overflow: auto;
+}
+.promo-banner .icon {
+  float: left;
+  margin: 0 20px 0 0;
+}
+.promo-banner img {
+  max-width: 300px;
+  max-height: 200px;
+}
+.promo-banner .icon-left {
+  margin-bottom: 10px;
+  text-align: center;
+}
+@media (max-width: 767px) {
+  .promo-banner form {
+    text-align: center;
+  }
+}
+@media (min-width: 768px) {
+  .promo-banner img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .promo-banner .icon-left {
+    float: left;
+    margin: 0;
+    width: 155px;
+  }
+  .promo-banner .content {
+    margin-left: 185px;
+  }
+}
+
+.promo-banner h3 {
+  margin: 0;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 300;
+}
+.promo-banner h4 {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.promo-banner p {
+  margin: 5px 0;
+}
+
+.promo-banner ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.92em;
+}
+.promo-banner ul li {
+  margin-bottom: 4px;
+}
+@media (min-width: 1200px) {
+  .promo-banner ul li {
+    float: left;
+    width: 50%;
+  }
+}
+
+.promo-banner .fa:not(.fa-spinner) {
+  font-size: 1.2em;
+  color: #91c590;
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.promo-banner a {
+  color: #ff6600;
+  text-decoration: underline;
+}
+.promo-banner .btn {
+  margin: 6px 0 0 0;
+  padding: 8px 30px;
+  background-color: #ff6600;
+  border: 0;
+  color: #fff;
+}
+
+@media (max-width: 650px) {
+  .promo-banner .icon {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}
+
+.promo-banner-rounded {
+  border-radius: 4px;
+}
+
+.promo-banner-slim {
+  padding: 10px;
+}
+.promo-banner-slim .icon-left {
+  width: 85px;
+}
+.promo-banner-slim .content {
+  margin-left: 110px;
+}
+.promo-banner-slim h3 {
+  font-size: 18px;
+}
+.promo-banner-slim h4 {
+  font-size: 14px;
+}
+.promo-banner-slim .btn {
+  margin: 0 20px 0 0;
+  padding: 6px 20px;
+}
+
+.promo-banner.ssl {
+  border-top: 3px solid #4da24c;
+}
+.promo-banner.ssl .btn {
+  background-color: #4da24c;
+}
+
+.promo-banner.weebly {
+  border-top: 3px solid #2990ea;
+}
+.promo-banner.weebly .btn {
+  background-color: #2990ea;
+}
+
+.promo-banner.spamexperts {
+  border-top: 3px solid #589ed7;
+}
+.promo-banner.spamexperts .btn {
+  background-color: #589ed7;
+}
+
+.promo-banner-slim.weebly .icon-left {
+  width: 160px;
+}
+.promo-banner-slim.weebly .content {
+  margin-left: 185px;
+}
+
+.promo-banner.sitelock {
+  border-top: 3px solid #f2952d;
+}
+.promo-banner.sitelock .btn {
+  background-color: #f2952d;
+}
+
+.promo-banner.codeguard {
+  border-top: 3px solid #a9cc5f;
+}
+.promo-banner.codeguard a {
+  color: #a9cc5f;
+}
+.promo-banner.codeguard .btn {
+  background-color: #a9cc5f;
+}
+
+.mc-panel-promo {
+  font-size: 0.95em;
+}
+.mc-panel-promo img {
+  display: block;
+  margin: 0 auto 6px;
+  max-width: 90%;
+  max-height: 87px;
+}

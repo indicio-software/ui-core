@@ -1,0 +1,334 @@
+/**
+ * -------------------------
+ * @section Icons
+ * -------------------------
+ */
+
+i.icon-rss {
+  color: #ff6600;
+}
+
+/**
+ * -------------------------
+ * @section Twitter Feed
+ * -------------------------
+ */
+
+div.home-twitter {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+div.tweet > i {
+  color: #2BABCF;
+  float: left;
+  margin-right: 15px;
+}
+div.tweet span {
+  font-size: 12px;
+  color: #ccc;
+}
+
+/**
+ * -------------------------
+ * @section Captcha
+ * -------------------------
+ */
+
+.captchaimage {
+  margin: 0;
+  padding: 3px 0 4px;
+  -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+  text-align: right;
+}
+
+/**
+ * -------------------------
+ * @section Popups
+ * -------------------------
+ */
+
+#popup-backdrop {
+  background-color: #2E363F;
+  padding: 15px;
+  height: 100%;
+}
+
+.popup-header-padding {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+/**
+ * -------------------------
+ * @section Uncategorized
+ * -------------------------
+ */
+
+.btn.btn-action {
+  background-color: #72CA06;
+  border-color: #498302;
+}
+
+/**
+ * -------------------------
+ * Printing
+ * -------------------------
+ */
+
+@media print {
+  .sidebar,
+  #main-menu,
+  #top-nav,
+  .header-lined {
+    display: none;
+  }
+  a[href]:after {
+    content:"" !important;
+  }
+}
+
+/**
+ * -------------------------
+ * Badges Spacing
+ * -------------------------
+ */
+
+h3.with-badge::after {
+  content: '.';
+  color: #fff;
+}
+
+h3.with-badge span, h3.with-badge i {
+  float: left;
+  padding-right: 8px;
+}
+
+h3.with-badge .badge {
+  line-height: initial;
+  margin-top: 3px;
+}
+
+@media (min-width: 992px) {
+  h3.with-badge .badge {
+    padding: 3px 7px 3px 8px;
+  }
+  .sidebar .list-group-item .badge {
+    margin-top: -2px;
+    padding: 3px 7px 3px 8px;
+    line-height: initial;
+    min-width: 36px;
+  }
+}
+
+/**
+ * -------------------------
+ * Admin Masquerade Notice
+ * -------------------------
+ */
+
+.admin-masquerade-notice {
+  margin: 25px 0 0 auto;
+  padding: 4px 10px;
+  max-width: 240px;
+  font-family: Tahoma;
+  font-size: 0.7em;
+  text-align: right;
+}
+.admin-masquerade-notice a {
+  text-decoration: underline;
+}
+
+a.admin-inline-edit {
+  margin-left: 6px;
+  font-weight: 400;
+  color: #888;
+}
+a.admin-inline-edit:hover {
+  color: #444;
+  text-decoration: none;
+}
+
+/**
+ * -------------------------
+ * Language Chooser
+ * -------------------------
+ */
+
+.language-popover {
+  max-width: 450px;
+  width: 100%;
+  background-color: rgba(20, 20, 20, 0.98);
+  background-image: url('../../../images/worldmap.png');
+  background-repeat: no-repeat;
+  font-size: 0.8em;
+}
+.language-popover.popover.bottom > .arrow:after {
+  border-bottom-color: rgba(20, 20, 20, 0.97);
+}
+.language-popover .popover-content ul {
+  margin: 6px 0 14px 0;
+  padding: 0;
+  max-width: 400px;
+  list-style-type: none;
+  overflow: hidden;
+}
+.language-popover .popover-content li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 40px;
+  width: 33.333%;
+  line-height: 2em;
+}
+.language-popover .popover-content li a {
+  color: #f2f2f2;
+}
+
+@media (max-width: 480px) {
+  .language-popover {
+    max-width: 250px;
+    background-position: -50px 0;
+  }
+  .language-popover .popover-content li {
+    padding: 0 20px;
+    width: 50%;
+  }
+}
+
+/**
+ * -------------------------
+ * Login or Register Popover
+ * -------------------------
+ */
+
+.login-popover {
+  font-size: 12px;
+}
+.login-popover .form-group {
+  margin-bottom: 5px;
+}
+.login-popover hr {
+  margin: 5px 0;
+}
+
+/**
+ * -------------------------
+ * Mass Pay
+ * -------------------------
+ */
+
+tr.masspay-invoice-detail td {
+  font-size: 0.8em;
+}
+tr.masspay-total td {
+  background-color: #efefef;
+  font-weight: bold;
+}
+
+/**
+ * -------------------------
+ * Error Page
+ * -------------------------
+ */
+
+.error-container {
+  text-align: center;
+}
+.error-container h1 {
+  margin-top: 40px;
+}
+.error-container .buttons {
+  margin: 25px 0;
+}
+.error-container .buttons .btn {
+  margin: 5px;
+}
+
+/**
+ * -------------------------
+ * Collapsable Panels
+ * -------------------------
+ */
+
+.panel-collapsable > .panel-heading {
+  cursor: pointer;
+}
+.panel-collapsable > .panel-body-collapsed {
+  display: none;
+}
+
+/**
+ * -------------------------
+ * Licensing Addon
+ * -------------------------
+ */
+
+.licensing-addon-latest-download h3 {
+  margin-top: 0;
+}
+
+/**
+ * -------------------------
+ * Domain Checker Captchas
+ * -------------------------
+ */
+
+#google-recaptcha-domainchecker {
+  width: 304px;
+  height: 78px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+#default-captcha-domainchecker {
+  margin-top: 15px;
+}
+
+#default-captcha-domainchecker #inputCaptcha {
+  width: 100px;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+@media (max-width: 991px) {
+  #google-recaptcha-domainchecker {
+    padding-left: 2.5%;
+  }
+
+  #default-captcha-domainchecker {
+    margin-bottom: -25px;
+  }
+}
+
+@media (max-width: 736px) {
+  #google-recaptcha-domainchecker {
+    transform: scale(0.935);
+    transform-origin: 0 0;
+    -webkit-transform: scale(0.935);
+    -webkit-transform-origin: 0 0;
+  }
+}
+
+@media (max-width: 384px) {
+  #google-recaptcha-domainchecker {
+    transform: scale(0.96);
+    transform-origin: 0 0;
+  }
+}
+
+@media (max-width: 360px) {
+  #google-recaptcha-domainchecker {
+    transform: scale(0.89);
+    transform-origin: 0 0;
+  }
+}
+
+@media (max-width: 320px) {
+  #google-recaptcha-domainchecker {
+    padding-left: 13.5%;
+    transform: scale(0.83);
+    transform-origin: 0 0;
+    -webkit-transform: scale(0.785);
+    -webkit-transform-origin: 0 0;
+  }
+}
