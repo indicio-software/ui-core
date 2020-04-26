@@ -8,24 +8,11 @@ $theme-colors: (
         warning: #FFDD00,
 ) !default;
 
+$banner-vertical-gutter: 20px !default;
+
 /** Bootstrap navbar fix (https://git.io/fADqW) */
 $navbar-dark-toggler-icon-bg: none !default;
 $navbar-light-toggler-icon-bg: none !default;
-
-// Font properties
-$font-primary: "Work Sans",serif !default;
-$font-family: 'Nunito Sans', sans-serif !default;
-
-// color
-$color-primary: #0073F7 !default; //#30228d;
-$color-secondary: #091361 !default;//:#0577ff;
-$color-white: #FFF !default;
-$color-gray: #f4f5fa !default;
-$color-dark-gray: #E4E7ED !default;  //font color in black bg
-$color-font:  #7e7e7e !default;  //font color
-$color-black: #222222 !default;
-
-$banner-vertical-gutter: 20px !default;
 
 $enable-rounded : true !default;
 $navbar-padding-y: 0 !default;

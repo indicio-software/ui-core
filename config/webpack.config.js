@@ -7,10 +7,23 @@ module.exports = {
             {
                 test: /\.(js|jsx)$/,
                 exclude: /node_modules/,
-                use: ['babel-loader']
-            }
+                loader: 'babel-loader',
+                query: {
+                    presets: ['@babel/env', '@babel/preset-react']
+                }
+            },
+            {
+                test: /\.[ac]ss$/i,
+                use: [
+                    // Translates CSS into CommonJS
+                    'css-loader',
+                    // Compiles Sass to CSS
+                    'sass-loader',
+                ],
+            },
         ]
     },
+    devtool: 'sourcemap',
     resolve: {
         extensions: ['*', '.js', '.jsx']
     },

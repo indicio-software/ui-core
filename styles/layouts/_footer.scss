@@ -1,8 +1,15 @@
 .footer {
-  background: $color-white;
-  border-top: solid 1px $color-dark-gray;
+  background: #000B17;
+  border-top: solid 1px $gray-300;
+  min-height: 40px;
+  padding: 20px 0 30px 0;
+
+  //position: absolute;
+  //bottom: 0;
+  //width: 100%;
 
   &__content {
+    color: var(--white);
     display: flex;
     flex-direction: row;
     align-items: center;

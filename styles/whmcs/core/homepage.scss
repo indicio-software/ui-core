@@ -18,8 +18,8 @@ section#main-menu {
 section#home-banner {
   margin: 0;
   padding: $banner-vertical-gutter 0 $banner-vertical-gutter;
-  background: $color-primary;
-  color: $color-white;
+  background: map-get($theme-colors, 'primary');
+  color: $white;
 
   .with-recaptcha {
     padding-bottom: 90px;
@@ -44,7 +44,7 @@ section#home-banner {
   h2 {
     margin: 0;
     padding: 0 25px 10px 25px;
-    color: $color-white;
+    color: $white;
   }
 
   input[type="submit"] {
@@ -95,7 +95,7 @@ section#home-banner .btn.transfer {
 
 .home-shortcuts {
   margin-bottom: 50px;
-  color: $color-black;
+  color: $black;
 
   .icon {
     &--basket {
@@ -112,8 +112,8 @@ section#home-banner .btn.transfer {
       float: left;
       width: 24%;
       padding: 5px 3px;
-      border-right: 1px dashed $color-primary;
-      border-bottom: 1px dashed $color-primary;
+      border-right: 1px dashed map-get($theme-colors, 'primary');
+      border-bottom: 1px dashed map-get($theme-colors, 'primary');
       font-size: 0.9em;
       text-align: center;
       cursor: pointer;
@@ -121,13 +121,13 @@ section#home-banner .btn.transfer {
       white-space: nowrap;
 
       &:first-child {
-        border-left: 1px solid $color-primary;
+        border-left: 1px solid map-get($theme-colors, 'primary');
       }
     }
 
     a {
       display: block;
-      color: $color-black;
+      color: $black;
       text-decoration: none;
     }
   }

@@ -1,12 +1,12 @@
 .home-banner {
-  background: $color-primary;
+  background: map-get($theme-colors, 'primary');
 
   &__box {
     height: calc(100vh - 120px);
   }
 
   &__solutionList {
-    color: $color-white;
+    color: $white;
     line-height: 1.4;
     height: 50px;
   }
@@ -20,7 +20,7 @@
   .coding-box {
     width: 150px;
     height: 150px;
-    border: dashed 1px $color-primary;
+    border: dashed 1px map-get($theme-colors, 'primary');
     border-radius: 4px;
     float: left;
     margin-right: 10px;
@@ -81,19 +81,6 @@
     }
   }
 }
-
-.warranty {
-  background: url('https://indicio.software/static/uploads/2018/07/background14-1.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-
-  &__box {
-    height: 500px;
-  }
-}
-
 
 .technology-carousel {
   margin-top: -50px;

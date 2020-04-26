@@ -16,42 +16,26 @@
  * @link      http://www.whmcs.com/
  */
 
-html,body {
-  height: 100%;
-}
-
-body {
-  background-color: #f8f8f8;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 400;
-}
-
-a {
-  color: #058;
-}
-
-@import "./homepage";
+//@import "./homepage";
 @import "./clientarea";
 @import "./affilates";
 @import "./announcments";
 @import "./backgrounds";
 @import "./client-notifications";
 @import "./credit-cards";
-@import "./domain-checker";
-@import "./knowledgebase";
+//@import "./domain-checker";
+//@import "./knowledgebase";
 @import "./login";
-@import "./margins";
-@import "./navbar";
-@import "./top-nav";
-@import "./product-details";
+//@import "./margins";
+//@import "./navbar";
+//@import "./top-nav";
+//@import "./product-details";
 @import "./responsive";
-@import "./sections";
-@import "./sidebar";
-@import "./statuses";
+//@import "./sections";
+//@import "./sidebar";
+//@import "./statuses";
 @import "./support";
-@import "./header";
-@import "./forms";
+//@import "./header";
+//@import "./forms";
 @import "./2fa";
 @import "./helpers";

@@ -1,7 +1,11 @@
 import React from 'react';
-
-const Section = () => {
-    return <p>Hello World</p>
+import { Container, Row, Col } from 'reactstrap'
+export default function Section({ className, children }) {
+    return (
+        <section className={className}>
+            <Container>
+                {children}
+            </Container>
+        </section>
+    )
 };
-
-export default Section;

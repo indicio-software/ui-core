@@ -5,7 +5,7 @@
  */
 
 div.announcement-single {
-  background: $color-white;
+  background: $white;
   margin: 0 25px 25px 0;
 
   &--date {
@@ -13,7 +13,7 @@ div.announcement-single {
     align-items: center;
 
     font-size: 0.75rem;
-    color: $color-font;
+    color: #222222;
 
     margin-bottom: 1rem;
 

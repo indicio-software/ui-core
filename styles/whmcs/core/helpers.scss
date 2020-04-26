@@ -93,33 +93,33 @@ div.tweet span {
  * Badges Spacing
  * -------------------------
  */
-
-h3.with-badge::after {
-  content: '.';
-  color: #fff;
-}
-
-h3.with-badge span, h3.with-badge i {
-  float: left;
-  padding-right: 8px;
-}
-
-h3.with-badge .badge {
-  line-height: initial;
-  margin-top: 3px;
-}
-
-@media (min-width: 992px) {
-  h3.with-badge .badge {
-    padding: 3px 7px 3px 8px;
-  }
-  .sidebar .list-group-item .badge {
-    margin-top: -2px;
-    padding: 3px 7px 3px 8px;
-    line-height: initial;
-    min-width: 36px;
-  }
-}
+//
+//h3.with-badge::after {
+//  content: '.';
+//  color: #fff;
+//}
+//
+//h3.with-badge span, h3.with-badge i {
+//  float: left;
+//  padding-right: 8px;
+//}
+//
+//h3.with-badge .badge {
+//  line-height: initial;
+//  margin-top: 3px;
+//}
+//
+//@media (min-width: 992px) {
+//  h3.with-badge .badge {
+//    padding: 3px 7px 3px 8px;
+//  }
+//  .sidebar .list-group-item .badge {
+//    margin-top: -2px;
+//    padding: 3px 7px 3px 8px;
+//    line-height: initial;
+//    min-width: 36px;
+//  }
+//}
 
 /**
  * -------------------------
